@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/redrush/!svn/ver/622/branches/dev/templates/RedRushWeb/admin
+END
+news_comment.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/redrush/!svn/ver/22/branches/dev/templates/RedRushWeb/admin/news_comment.html
+END
+news_edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/redrush/!svn/ver/552/branches/dev/templates/RedRushWeb/admin/news_edit.html
+END
+news_add.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/redrush/!svn/ver/552/branches/dev/templates/RedRushWeb/admin/news_add.html
+END
+news_comment_all.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/redrush/!svn/ver/22/branches/dev/templates/RedRushWeb/admin/news_comment_all.html
+END
+news_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/redrush/!svn/ver/452/branches/dev/templates/RedRushWeb/admin/news_list.html
+END

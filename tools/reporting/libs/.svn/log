@@ -1,0 +1,130 @@
+<modify-entry
+   name="BaseModel.php"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="385"
+   committed-date="2012-03-20T10:33:55.647964Z"
+   name="BaseModel.php"
+   last-author="renaldy84"
+   uuid="209914d8-26a8-44b7-b3a5-3be38f3287df"/>
+<modify-wcprop
+   name="BaseModel.php"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/redrush/!svn/ver/385/branches/dev/tools/reporting/libs/BaseModel.php"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="BaseModel.php"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="396"/>
+<cp-and-translate
+   dest="BaseModel.php"
+   name=".svn/tmp/text-base/BaseModel.php.svn-base"/>
+<mv
+   dest=".svn/text-base/BaseModel.php.svn-base"
+   name=".svn/tmp/text-base/BaseModel.php.svn-base"/>
+<readonly
+   name=".svn/text-base/BaseModel.php.svn-base"/>
+<modify-entry
+   name="BaseModel.php"
+   checksum="164561e3bc4a38b4ee48523a20106c88"/>
+<modify-entry
+   name="BaseModel.php"
+   text-time="working"/>
+<modify-entry
+   name="BaseModel.php"
+   working-size="working"/>
+<modify-entry
+   name="Logger.php"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="385"
+   committed-date="2012-03-20T10:33:55.647964Z"
+   name="Logger.php"
+   last-author="renaldy84"
+   uuid="209914d8-26a8-44b7-b3a5-3be38f3287df"/>
+<modify-wcprop
+   name="Logger.php"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/redrush/!svn/ver/385/branches/dev/tools/reporting/libs/Logger.php"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="Logger.php"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="396"/>
+<cp-and-translate
+   dest="Logger.php"
+   name=".svn/tmp/text-base/Logger.php.svn-base"/>
+<mv
+   dest=".svn/text-base/Logger.php.svn-base"
+   name=".svn/tmp/text-base/Logger.php.svn-base"/>
+<readonly
+   name=".svn/text-base/Logger.php.svn-base"/>
+<modify-entry
+   name="Logger.php"
+   checksum="8e444ef29484c01974734dad17b653ef"/>
+<modify-entry
+   name="Logger.php"
+   text-time="working"/>
+<modify-entry
+   name="Logger.php"
+   working-size="working"/>
+<modify-entry
+   name="logger.php"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="385"
+   committed-date="2012-03-20T10:33:55.647964Z"
+   name="logger.php"
+   last-author="renaldy84"
+   uuid="209914d8-26a8-44b7-b3a5-3be38f3287df"/>
+<modify-wcprop
+   name="logger.php"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/redrush/!svn/ver/385/branches/dev/tools/reporting/libs/logger.php"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="logger.php"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="396"/>
+<cp-and-translate
+   dest="logger.php"
+   name=".svn/tmp/text-base/logger.php.svn-base"/>
+<mv
+   dest=".svn/text-base/logger.php.svn-base"
+   name=".svn/tmp/text-base/logger.php.svn-base"/>
+<readonly
+   name=".svn/text-base/logger.php.svn-base"/>
+<modify-entry
+   name="logger.php"
+   checksum="1ab0247d784c4410878709c772b0929a"/>
+<modify-entry
+   name="logger.php"
+   text-time="working"/>
+<modify-entry
+   name="logger.php"
+   working-size="working"/>
+<modify-entry
+   committed-rev="385"
+   committed-date="2012-03-20T10:33:55.647964Z"
+   name=""
+   last-author="renaldy84"
+   uuid="209914d8-26a8-44b7-b3a5-3be38f3287df"/>
+<modify-wcprop
+   name=""
+   propname="svn:wc:ra_dav:version-url"
+   propval="/redrush/!svn/ver/385/branches/dev/tools/reporting/libs"/>

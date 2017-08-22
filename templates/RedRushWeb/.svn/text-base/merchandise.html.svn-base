@@ -1,0 +1,41 @@
+
+<div id="main-container" class="unverified-merchandise">
+	<div class="comingsoon-icon"> </div>
+</div><!-- #main-container -->
+{*}
+<div id="main-container" class="bg-blue">
+	<div class="wrapper">
+    	<div id="containers">
+            <div class="logo">
+            	<a href="index.php">&nbsp;</a>
+            </div><!-- .logo -->
+            <div class="panel4">
+                <div class="titles">
+                    <h1>Your Current Points : <span class="yellow"> {$points} Pts.</span> </h1>
+                    <a class="add-points" href="?page=race">&nbsp;</a>
+                </div>
+            	<div class="entry">
+                    <div class="scrollbar">
+                    	<div class="merchandise">
+						{section name=i loop=$merchandise}
+                        	<div class="item">
+                            	<div class="thumb-frame">
+                                	<a class="thumb-item" href="index.php?page=merchandise&act=merchandiseDetail&merchandiseID={$merchandise[i]->id}">
+                                   {if $merchandise[i]->ownMerchandise eq 0}<img src="img/merchandise/{$merchandise[i]->img}" alt="" />{else}<img class="img-purchase" src="img/merchandise/{$merchandise[i]->img}" alt="" />{/if}
+                                    </a><!-- .thumb-item -->
+                                </div><!-- .thumb-frame -->
+                                <div class="caption">
+                                	<span class="price">{$merchandise[i]->prize} Pts.</span>
+                                   {if $merchandise[i]->ownMerchandise eq 0} <a class="btn-redeem"  href="index.php?page=merchandise&act=merchandiseDetail&merchandiseID={$merchandise[i]->id}" >&nbsp;</a> {else} <span class="purchased-item">PURCHASED</span> {/if}
+                                </div><!-- .caption -->
+                            </div><!-- .item -->
+                        {/section}
+                        	
+                        </div><!-- .merchandise -->
+                    </div><!-- .scrollbar -->
+                </div><!-- .entry -->
+            </div><!-- .panel -->
+        </div><!-- #containers -->
+    </div><!-- .wrapper -->
+</div><!-- #main-container -->
+{/*}

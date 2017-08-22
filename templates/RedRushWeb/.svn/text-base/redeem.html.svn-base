@@ -1,0 +1,64 @@
+
+<div id="main-container" class="bg-blue">
+	<div class="wrapper">
+    	<div id="containers">
+            <div class="logo">
+            	<a href="index.php">&nbsp;</a>
+            </div><!-- .logo -->
+            <div class="panel4">
+                <div class="titles">
+                    <h1>MERCHANDISE </h1>
+                </div>
+            	<div class="entry">
+                    	<div class="merchandise">
+                        	<div class="item-redeem">
+                            	<div class="thumb-frame">
+                                	<a class="thumb-item" href="index.php?page=merchandiseDetail">
+                                    	<img src="img/merchandise/{$merchandise->img}" />
+                                    </a><!-- .thumb-item -->
+                                </div><!-- .thumb-frame -->
+                                <div class="description">
+                                    <h1>{$merchandise->item_name} : <span class="orange">{$points} pts</span></h1>
+                                    <p>{$merchandise->description}</p>
+                                </div>
+                            </div><!-- .item -->
+                            <div class="redeem-form">
+                            	<form action="?page=merchandise&act=purchaseMerchandise" method="POST" class="form-redeem">
+                                	<label>Address</label>
+									<input type="text" name="address" />
+                                    <label>City</label>
+                                    <input type="text" name="city_name" />
+                                    <label>Zip Code</label>
+                                    <input type="text" name="zip_code" />
+                                    <label>Phone</label>
+                                    <input type="text" name="phone" />
+                                    <label>Mobile</label>
+                                    <input type="text" name="mobile" />
+									<input type="hidden" name="merchandise_id" value="{$merchandise->id}"/>
+                                    <div class="agreement">
+                                    <label>I AGREE WITH THE <a href="index.php?page=statics&act=tos">TERMS AND CONDITIONS</a></label>
+                                    <input type="checkbox" name="checkTOS" id="checkTOS" />
+                                    </div>
+                                    <div class="rowsubmit">
+                                    <input type="button" value="&nbsp;" class="confirm-redeem" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!-- .merchandise -->
+                </div><!-- .entry -->
+            </div><!-- .panel -->
+        </div><!-- #containers -->
+    </div><!-- .wrapper -->
+</div><!-- #main-container -->
+{literal}
+<script>
+$('.confirm-redeem').click(function(){
+var checkTOS = $('#checkTOS').is(':checked');
+if(checkTOS!=true){
+alert('please agree the term and conditions');
+return false;
+}
+return $('.form-redeem').submit();
+});
+</script>
+{/literal}

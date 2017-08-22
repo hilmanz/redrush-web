@@ -1,0 +1,29 @@
+<h3>Merchandise List</h3>
+<p><form>Search: <input name="q" type="text" {if $q}value="{$q}"{/if}><input name="s" type="hidden" value="merchandise"><input name="go" type="submit" value="Go"></form></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="addlist zebra">
+  <tr>
+    <td width="5%" align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Merchandise</strong></td>
+    <td align="center"><strong>Amount</strong></td>
+    <td align="center"><strong>Prizes</strong></td>
+    <td align="center"><strong>Input Date</strong></td>
+    <td align="center"><strong>Status</strong></td>
+    <td align="center"><strong>Action</strong></td>
+  </tr>
+  {section name=n loop=$list}
+  <tr>
+  	
+    <td>{$list[n].id}</td>
+    <td>{$list[n].item_name} {if $list[n].img!=null}<br><img src="../public_html/img/merchandise/thumb_{$list[n].img}" width="64px">{/if}</td>
+    <td align="center">{$list[n].amount}</td>
+    <td align="center">{$list[n].prize}</td>
+    <td align="center">{$list[n].created_date}</td>
+    <td align="center">{if $list[n].n_status eq 1}Publish{else}Unpublish{/if}</td>
+    <td align="center">
+    <a href="index.php?s=merchandise&act=edit&id={$list[n].id}"><strong>Edit</strong></a> | 
+    <a href="index.php?s=merchandise&act=change-status&id={$list[n].id}&status={if $list[n].n_status eq 0}1{else}0{/if}"><strong>Change Status</strong></a><strong> | 
+    <a href="index.php?s=merchandise&act=delete&id={$list[n].id}" onclick="return confirm('Are you sure you want to delete?')">Delete</a></strong></td>
+  </tr>
+  {/section}
+</table>
+<div class="paging">{$paging}</div>
